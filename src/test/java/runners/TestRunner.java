@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 glue = "stepdefinitions",
                 tags = "@smoke",
                 plugin = {
-                        "progress",
+                        "pretty",
                         "json:json-reports/cucumber.json",
                         "html:build/cucumber-report/cucumber.html",
                         "junit:build/cucumber-report/cucumber.xml"}
