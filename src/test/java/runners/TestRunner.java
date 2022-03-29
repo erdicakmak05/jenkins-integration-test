@@ -12,9 +12,9 @@ import org.junit.runner.RunWith;
                 tags = "@smoke",
                 plugin = {
                         "pretty",
-                        "json:json-reports/cucumber.json",
-                        "html:build/cucumber-report/cucumber.html",
-                        "junit:build/cucumber-report/cucumber.xml"}
+                        "html:target/cucumber",
+                        "json:target/cucumber.json"
+                  }
         )
         // plugin = { "pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 public class TestRunner {
