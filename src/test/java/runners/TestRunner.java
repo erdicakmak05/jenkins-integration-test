@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 tags = "@smoke",
                 plugin = {
                         "pretty",
-                        "html:target/cucumber",
+                        "html:target/cucumber.html",
                         "json:target/cucumber.json"}
         )
         // plugin = { "pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
