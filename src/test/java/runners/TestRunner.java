@@ -13,8 +13,7 @@ import org.junit.runner.RunWith;
                 plugin = {
                         "pretty",
                         "html:target/cucumber",
-                        "json:target/cucumber.json"
-                  }
+                        "json:target/cucumber.json"}
         )
         // plugin = { "pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 public class TestRunner {
